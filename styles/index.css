@@ -1,0 +1,107 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Style */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 0 20px;
+}
+
+/* Header Section - Logo */
+header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+header .logo {
+    width: 150px;
+    height: auto;
+}
+
+/* Section Content */
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0;
+}
+
+/* Reverse section for alternating layout (image on left, text on right) */
+.reverse .content-left {
+    order: 1; /* Image on left */
+}
+
+.reverse .content-right {
+    order: 2; /* Text on right */
+}
+
+/* Default section layout (text on left, image on right) */
+.content-left {
+    flex: 1;
+    padding: 20px;
+}
+
+.content-right {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Text Section */
+.content-left p,
+.content-right p {
+    font-size: 1.1em;
+    line-height: 1.8em;
+}
+
+/* Image Section */
+.gallery-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Bottom Navigation */
+.bottom-nav {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.bottom-nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #0073e6;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.bottom-nav a:hover {
+    color: #005bb5;
+}
+
+.image-credit {
+    text-align: center; /* Center the text */
+    font-size: 0.9em; /* Slightly smaller font size */
+    color: #555; /* Dark gray color */
+    margin-top: 10px; /* Space above the credit */
+}
+
+.image-credit p {
+    margin: 0; /* Remove default margin */
+}
+
+.image-credit a {
+    color: #007BFF; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.image-credit a:hover {
+    text-decoration: underline; /* Underline on hover */
+}

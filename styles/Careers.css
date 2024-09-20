@@ -1,0 +1,128 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and General Settings */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Container */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Section */
+header {
+    background-color: #0073e6;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+/* Content Section */
+.content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+ .content h3 {
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: bold;
+
+}
+.content h2 {
+    text-align: center; /* Center only the first h2 element (Open Position) */
+
+}
+.content h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #0073e6;
+}
+
+/* Paragraphs */
+.content p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #555;
+    line-height: 1.8;
+}
+
+/* Qualifications and Responsibilities List */
+.qualification, .responsibilities {
+    margin-bottom: 30px;
+}
+.qualification h4 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #0073e6; /* Match color with h3 subheadings */
+}
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+ul li {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* Link Styling */
+a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #005bb5;
+}
+
+/* Footer (Optional for Bottom Navigation or Links) */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0073e6;
+    color: white;
+    border-radius: 10px;
+}
+
+.Logo2 {
+    display: block; /* Makes sure the image is treated as a block element */
+        margin: 0 auto; /* Center the image horizontally */
+        margin-top: -25px; /* Moves the image upwards */
+        width: 50%; /* Adjust the width as needed */
+        height: auto; /* Maintain aspect ratio */
+}
+
+
+.responsibilities {
+    margin-bottom: 10px; /* Add space between the list and the image */
+}
+
